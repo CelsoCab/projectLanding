@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f331e962;
+}
 
 .navbar-brand{
     font-family: cursive;
@@ -13,6 +15,93 @@
 
 }
 
+/* Jumbotron */
+
+
+
+.wrapperUno .text-box{
+    background-color: rgb(54, 6, 38);
+    width: 100%;
+    
+}
+
+.wrapperUno img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapperUno h2{
+    color: #fff;
+    
+}
+
+.wrapperUno h3{
+    color: #fff;
+ 
+}
+
+input[type="email"] {
+    margin-top: 30px;
+    width: 700px;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+
+}
+
+input[type="email"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ label {
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: white;
+}
+
+input[type="cupon"] { 
+    margin-top: 30px;
+    width: 810px;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+
+}
+
+input[type="cupo"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 2px 5px rgba(50, 9, 236, 0.1);
+}
+
+.enviar-boton{
+
+    margin-top: 40px;
+    margin-left: 2%;
+    width: 200px;
+    height: 50px;
+    padding: 15px 30px;
+    background-color: #483ed4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Tarjetas */
+.em
 #my-page {
     background-color: rgba(182, 8, 173, 0.247);
 }
@@ -131,7 +220,7 @@
     transition: .3s;
 }
 
-.bannner button:active{
+.banner button:active{
     transform: scale(0.9);
 }
 
